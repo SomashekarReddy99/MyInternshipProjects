@@ -1,0 +1,68 @@
+/*Skills section*/
+.title2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.content{
+    margin-top: 2rem;
+    display: flex;
+    gap: 4rem;
+}
+.skills .content .left .text2{
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .content .left p{
+    
+    text-align: justify; 
+color:white;
+
+}
+
+.skills .content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .content .right .line{
+    height: 5px;
+    width: 400px;
+    background: lightgrey;
+    position: relative;
+}
+.skills .content .right .line::before{
+   content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: orange;
+}
+.content .right .html::before{
+    width: 90%;
+}
+.content .right .css::before{
+    width: 60%;
+}
+.content .right .js::before{
+    width: 60%;
+}
+.content .right .php::before{
+    width: 40%;
+}
+.content .right .mysql::before{
+    width: 40%;
+}

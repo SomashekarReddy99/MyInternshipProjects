@@ -1,0 +1,8 @@
+@media screen and (max-width: 9000px){
+    #nav1{
+        display: none;
+    }
+    #nav2{
+        display: flex;
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somashekar N - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+</head>
+
+<body>
+    <nav id="nav1">
+        <div class="logo">
+           Somashekar N
+        </div>
+        <div>
+            <ul class="links">
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About me</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="project.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="nav2">
+        <div class="logo">
+            Somashekar N
+        </div>
+        <div class="menu">
+            <div class="icon" onclick="menu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu_links">
+                <li><a href="main.html" onclick="menu()">Home</a></li>
+                <li><a href="about.html" onclick="menu()" >About me</a></li>
+                <li><a href="skills.html" onclick="menu()">Skills</a></li>
+                <li><a href="project.html" onclick="menu()">Portfolio</a></li>
+                <li><a href="contact.html" onclick="menu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="picture">
+            <img src="./assets/Somashekar pic.jpg.jpeg" alt="Somashekar profile picture" class="pic">
+        </div>
+        <div class="text">
+            <p class="p1">Hello, I'm</p>
+            <h1 class="title">Somashekar N</h1>
+            <p><span class="p2"></span></p>
+            <div class="btn">
+                <button class="b1" onclick="window.open('./assets/Somashekar Resume.pdf.pdf')">Download CV</button>
+                <button class="b2" onclick="location.href='./contact.html'">Contact me</button>
+            </div>
+            <div id="socials">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon1" onclick="location.href='https://www.linkedin.com/in/rachan-p-34349a262'">
+               
+            </div>
+        </div>
+    </section>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
